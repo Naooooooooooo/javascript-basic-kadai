@@ -5,12 +5,12 @@ let num = 0;
 num = holidays.length -1;
 
 
-for(i=0; i<=15; i++){
+for(i=0; i<=num; i++){
     console.log(holidays[i]);
 }
 
 i = 0;
-while(i  < 16){
+while(i  <= num){
     console.log(holidays[i]);
     i++;
 }
